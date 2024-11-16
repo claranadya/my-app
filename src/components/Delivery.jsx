@@ -94,7 +94,7 @@ const Delivery = () => {
         </div>
       </div>
 
-      <div className="bg-gray-50 py-16">
+      <div className="bg-pink-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-serif font-medium text-center mb-12">
             Zona Pengiriman
@@ -106,7 +106,7 @@ const Delivery = () => {
                 key={zone.id}
                 className={`p-6 rounded-lg cursor-pointer transition-all duration-300 ${
                   selectedZone === zone.id
-                    ? 'bg-pink-100 border-2 border-pink-500'
+                    ? 'bg-pink-200 border-2 border-pink-600'
                     : 'bg-white border-2 border-gray-200 hover:border-pink-300'
                 }`}
                 onClick={() => setSelectedZone(zone.id)}

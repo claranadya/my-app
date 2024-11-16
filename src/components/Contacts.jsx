@@ -117,7 +117,7 @@ const Contacts = () => {
         </div>
       </div>
 
-      <div className="bg-gray-50 py-16">
+      <div className="bg-pink-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
 
@@ -191,7 +191,7 @@ const Contacts = () => {
               <h2 className="text-2xl font-serif font-medium mb-6">
                 Lokasi Kami
               </h2>
-                <div className="relative w-[555px] h-[405px] rounded-xl overflow-hidden">
+                <div className="relative w-[520px] h-[405px] rounded-xl overflow-hidden">
                 <MapContainer center={[-1.6105, 103.6143]} zoom={12} className="h-full w-full rounded-lg">
                     <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
