@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import { CatalogProvider } from './components/Catalog/CatalogContext';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -11,8 +11,8 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
-      <CatalogProvider>
+    <BrowserRouter>
+      <CatalogProvider basename="/my-app">
         <div className="min-h-screen bg-white">
           <Navbar />
           <Routes>
@@ -27,7 +27,7 @@ function App() {
         </div>
       </CatalogProvider>
 
-    </Router>
+    </BrowserRouter>
   );
 }
 
