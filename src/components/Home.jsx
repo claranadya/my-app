@@ -15,20 +15,8 @@ const Home = () => {
             </h1>
             <p className="text-gray-600">Same day cake delivery in Kota Jambi</p>
             <button className="bg-pink-600 text-white px-8 py-3 rounded-full hover:bg-pink-800">
-              Shop now
+              <a href="/catalog">Shop now</a>    
             </button>
-            
-            <div className="flex space-x-4 pt-8 max-w-7xl">
-              <a href="#" className="text-gray-400 hover:text-pink-600">
-                <BsFacebook size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-pink-600">
-                <BsTwitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-pink-600">
-                <BsInstagram size={20} />
-              </a>
-            </div>
           </div>
 
           <div className="relative">
